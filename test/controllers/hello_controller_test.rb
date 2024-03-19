@@ -1,6 +1,6 @@
 require "test_helper"
 
-class HelloCodespacesControllerTest < ActionDispatch::IntegrationTest
+class HelloControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
     get "/"
     assert_response :success
